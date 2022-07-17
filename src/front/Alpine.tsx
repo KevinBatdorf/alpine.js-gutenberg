@@ -1,6 +1,4 @@
-import { forwardRef } from '@wordpress/element';
 import { __ } from '@wordpress/i18n';
-import { ForwardedRef } from 'react';
 import { Attributes } from '../types';
 import './style.css';
 
