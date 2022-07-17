@@ -1,4 +1,4 @@
-# Alpine.js + Gutenberg POC
+# Alpine.js + Gutenberg
 
 This is an example of how to build a block that incorporates Alpine.js in both the editor and on the front end of the user's site. I've created a very simple countdown Alpine component that will also update when the user changes the starting number within Gutenberg. It has a demo `@click` event added that just resets the counter.
 
