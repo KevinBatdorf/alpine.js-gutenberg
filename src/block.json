@@ -1,22 +1,23 @@
 {
     "$schema": "https://schemas.wp.org/trunk/block.json",
     "apiVersion": 2,
-    "name": "kevinbatdorf/rust-starter",
+    "name": "kevinbatdorf/alpine-poc",
     "version": "0.1.0",
-    "title": "Rust Starter",
+    "title": "Alpine POC",
     "category": "common",
-    "description": "My amazing block",
+    "description": "A block showing two ways to use Alpine with Gutenberg",
     "attributes": {
-        "text": {
-            "type": "string",
-            "source": "text"
+        "count": {
+            "type": "number",
+            "default": 50
         }
     },
     "supports": {
-        "html": false
+        "html": true
     },
-    "textdomain": "rust-starter",
+    "textdomain": "alpine-poc",
     "editorScript": "file:./index.js",
     "editorStyle": "file:./index.css",
-    "style": "file:./style-index.css"
+    "style": "file:./style-index.css",
+    "viewScript": "file:./front/front-script.js"
 }
