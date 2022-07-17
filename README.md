@@ -13,10 +13,10 @@ https://alpinejs.dev/
 
 ---
 
-![alt text](assets/demo.gif "Demo component")
-
+![alt text](assets/demo.gif 'Demo component')
 
 Some notable stuff:
-- To keep the Gutenberg editor in sync with Alpine, you will want to use a `$store` and update it in a react `useEffect`. You could build a helper function to abstract this more.
-- You need to bind your directives outside of the jsx, otherwise it wont validate.
-- This repo also includes Tailwind css in a way where the backend and front end are compiled separately and only loads what is required.
+
+-   To keep the Gutenberg editor in sync with Alpine, you will want to use a `$store` and update it in a react `useEffect`. You could build a helper function to abstract this more.
+-   You need to bind your directives outside of the jsx, otherwise it wont validate.
+-   This repo also includes Tailwind css in a way where the backend and front end are compiled separately and only loads what is required.
