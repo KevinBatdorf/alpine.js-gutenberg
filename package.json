@@ -35,7 +35,7 @@
         "eslint-plugin-react": "^7.29.4",
         "eslint-plugin-react-hooks": "^4.4.0",
         "fast-glob": "^3.2.11",
-        "glob": "^8.0.1",
+        "glob": "^8.0.3",
         "postcss-import": "^14.1.0",
         "prettier": "^2.6.2",
         "replace-in-file": "^6.3.2",
